@@ -1,0 +1,38 @@
+# India Census 2011 Analysis
+
+The Dataset for this project taken from following websites:
+1. https://www.census2011.co.in/district.php -- Dataset 1
+2. https://www.census2011.co.in/literacy.php -- Dataset 2
+
+Dataset 1 contains following Columns:
+District, State, Growth, Sex_Ratio,	Literacy
+
+Dataset 2 contains following Columns:
+District, State, Area Km2, Population
+
+The Queries written for this project are as follows:
+
+1. Dataset related to Jharkhand and Bihar
+2. Total Population of INDIA
+3. AVG Growth statewise Descnding Order
+4. AVG Sex ratio Statwise in DESC order
+5. States having AVG Literacy ratio > 85% in DESC order
+6. Top 3 state showing Highest Growth ratio
+7. Bottom 3 state showing Lowest Sex ratio
+8. Creation of Top States Table having literacy and Inserting Values
+    Selection of Top 3 states in AVG_Literacy_ratio
+9. Creation of Bottom States Table having Literacy ratio and Inserting Values
+    Selection of Bottom 3 states in AVG_Literacy_ratio
+10. UNION OPERATOR
+    Combining Top and Bottom 3 States in AVG_Literacy_ratio
+11. States starting with letter a
+12. Sex Ratio and Population ordered in Statewise
+13. Population of Males and Females in each District and ordered in Statewise
+14. Total Males and Total Females ordered in Statewise
+15. Total Literate and Total Illiterate People ordered in Statewise.
+
+
+
+
+
+
