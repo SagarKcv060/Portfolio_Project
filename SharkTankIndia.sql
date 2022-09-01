@@ -97,7 +97,7 @@ where Partners != '-'
 group by Partners
 order by Partner_Deals desc;
 
---Making the matrix
+--Making the matrix 
 
 select [Ashneer Amount Invested] from SharkTank
 where [Ashneer Amount Invested] is not null
@@ -124,7 +124,7 @@ where [Ashneer Amount Invested] is not null AND [Ashneer Amount Invested] != 0) 
 
 on a.keyy = b.keyy;
 
----
+-- Ashneer Total Deals Present, Total Deals, Total Amount Invested and AVG Equity taken
 
 select m.keyy, m.TotalDealsPresent, m.Totaldeals, n.TotalAmountinvested, n.AVGEquitytaken
 from
@@ -151,7 +151,8 @@ where [Ashneer Equity Taken %] !=0 and [Ashneer Equity Taken %] is not null) c) 
 
 on m.keyy = n.keyy;
 
---
+--Each Sectorwise (including Brands) Amount Invested in Lakhs with rank
+
 select Brand, Sector, [Amount Invested lakhs], rank() over(partition by Sector  
 order by [Amount Invested lakhs] desc) rnk from SharkTank
 
