@@ -1,0 +1,28 @@
+# Shark Tank India
+
+Shark Tank India is an Indian Hindi-language business reality television series that airs on Sony Entertainment Television. 
+The show is the Indian franchise of the American show Shark Tank. It shows entrepreneurs making business presentations to a 
+panel of investors or sharks, who decide whether to invest in their company. 
+The first season of Shark Tank India premiered on 20 December 2021, and concluded on 4 February 2022.
+
+The Queries written for this project are as follows:
+
+1. Total Episodes
+2. Pitches
+3. Total male and female contestants 
+4. Total amount invested
+5. AVg Equity Taken
+6. Highest Deal Taken
+7. Highest Equity taken
+8. Startups having atleast women contestants 
+9. Pitches converted having atleast women
+10. AVG Team members
+11. Amount invested per deal
+12. AVG age group of contestants 
+13. Location of group of contestants 
+14. Sector of group of contestants 
+15. Partner deals
+   Making the matrix
+16. Ashneer Total Deals Present and Total Deals
+17. Ashneer Total Deals Present, Total Deals, Total Amount Invested and AVG Equity taken
+18. Each Sectorwise (including Brands) Amount Invested in Lakhs with rank.
